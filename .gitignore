@@ -1,0 +1,8 @@
+.idea/
+.vs/
+.env
+.pk
+.pem
+.pub
+storage
+node_modules

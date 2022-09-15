@@ -1,0 +1,1575 @@
+{
+    "variables": [],
+    "info": {
+        "name": "Alium API",
+        "_postman_id": "9a80afd8-79ae-4cfa-bb78-ed6af306c1da",
+        "description": "",
+        "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+    },
+    "item": [
+        {
+            "name": "GENERAL INFO",
+            "description": "",
+            "item": [
+                {
+                    "name": "Get list Country",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/list-country",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "est",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get list City",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/list-city\/:id",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "eligendi",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get list distrist",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/list-district\/:id",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "aut",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get list Country",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/list-country",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "dolore",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get list City",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/list-city\/:id",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "error",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get list distrist",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/list-district\/:id",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "id",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "NOTIFICATION",
+            "description": "",
+            "item": [
+                {
+                    "name": "Get list Nofification demander",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/user\/notify",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "autem",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Read notification",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/user\/notify\/read\/:id",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "qui",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get list Nofification demander",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/notify",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "itaque",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Read notification",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/notify\/read\/:id",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "dolores",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SUPPLIER MANAGER INFO",
+            "description": "",
+            "item": [
+                {
+                    "name": "Login",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/login",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "omnis",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"email\": \"dolorum\",\n    \"password\": \"ducimus\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get Info",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/get-info",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "recusandae",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Update Info",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/update-info",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "rerum",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"type\": \"contact\",\n    \"sId\": 14,\n    \"dataUpdate\": \"{\\\"logo\\\":\\\"\\\",\\\"companyName\\\":\\\"X\\\\u01b0\\\\u1edfng abc\\\",\\\"globalName\\\":\\\"\\\",\\\"businessCode\\\":\\\"123456\\\",\\\"businessImage\\\":[],\\\"email\\\":\\\"abc@alium.vn\\\",\\\"website\\\":\\\"\\\",\\\"address\\\":\\\"\\\",\\\"city\\\":\\\"\\\",\\\"startYear\\\":\\\"\\\",\\\"numEmployee\\\":\\\"\\\",\\\"factoryAddress\\\":[],\\\"promotionText\\\":\\\"\\\",\\\"typeOfProduct\\\":1,\\\"typeOfBusiness\\\":1,\\\"market\\\":\\\"\\\",\\\"marketName\\\":[],\\\"historyBrand\\\":[],\\\"phone\\\":\\\"0987654321\\\",\\\"licenseId\\\":\\\"112233\\\"}\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get List Order",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/list-order",
+                            "query": [
+                                {
+                                    "key": "page",
+                                    "value": "8",
+                                    "description": "Number of page (integer)",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Add Order",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/add-order",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "voluptas",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"unit\": \"est\",\n    \"priceUnit\": 10,\n    \"minQuantity\": 11,\n    \"color\": [],\n    \"brand\": [],\n    \"material\": \"culpa\",\n    \"size\": \"cupiditate\",\n    \"video\": \"distinctio\",\n    \"hide\": true,\n    \"pdf_file\": \"totam\",\n    \"od_product\": 11,\n    \"imgId\": \"id\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Upload Image",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/upload-image",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "necessitatibus",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"file\": \"aut\",\n    \"pdf\": \"nemo\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Upload Image Order",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/upload-order-image",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "qui",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"file\": \"dolore\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Delete Image Order",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/delete-image\/:id",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "blanditiis",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Update Order",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/update-order",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "et",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"odId\": 16,\n    \"dataUpdate\": {},\n    \"imgId\": \"100,102,123\",\n    \"pdf_file\": \"delectus\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Update User Info",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/edit-info",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "quasi",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"dataUpdate\": {\n        \"user_showName\": \"suscipit\",\n        \"user_phone\": \"exercitationem\",\n        \"user_city\": 5767.61253765,\n        \"user_address\": \"corrupti\",\n        \"user_birthday\": \"libero\",\n        \"user_gender\": \"dolores\"\n    },\n    \"newPassword:\": \"consequatur\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Logout",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/logout",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "eveniet",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get list customer order",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/list-order-customer",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "voluptatem",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"type\": \"bid\",\n    \"dataUpdate\": \"{\\\"priceUnit\\\":\\\"100000\\\",\\\"timeFinish\\\":\\\"8\\\",\\\"material\\\":\\\"Cotton 70%\\\", \\\"note\\\":\\\"restore at 10\\\/10\\\/1990\\\"}\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Get detail customer order",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/detail-order-customer",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "consequatur",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"type\": \"bid\",\n    \"dataUpdate\": \"{\\\"priceUnit\\\":\\\"100000\\\",\\\"timeFinish\\\":\\\"8\\\",\\\"material\\\":\\\"Cotton 70%\\\", \\\"note\\\":\\\"restore at 10\\\/10\\\/1990\\\"}\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "Process customer order",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/process-order",
+                            "query": [
+                                {
+                                    "key": "\\",
+                                    "value": "molestiae",
+                                    "description": "",
+                                    "disabled": false
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"type\": \"bid\",\n    \"dataUpdate\": \"{\\\"priceUnit\\\":\\\"100000\\\",\\\"timeFinish\\\":\\\"8\\\",\\\"material\\\":\\\"Cotton 70%\\\", \\\"note\\\":\\\"restore at 10\\\/10\\\/1990\\\"}\"\n}"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        },
+        {
+            "name": "general",
+            "description": "",
+            "item": [
+                {
+                    "name": "api\/auth\/register",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/auth\/register",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/auth\/register-social",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/auth\/register-social",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/auth\/login",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/auth\/login",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/auth\/login-social",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/auth\/login-social",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/auth\/logout",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/auth\/logout",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/auth\/reset-password",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/auth\/reset-password",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/auth\/reset-password",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/auth\/reset-password",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/auth\/register\/send-code",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/auth\/register\/send-code",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/auth\/register\/verify-code",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/auth\/register\/verify-code",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/products",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/products",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/supplier\/detail\/{id}",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/detail\/:id",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/static-content",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/static-content",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/user\/info",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/user\/info",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/user\/edit",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/user\/edit",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/user\/change-pass",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/user\/change-pass",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/orders\/rate",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/orders\/rate",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/orders\/upload-image",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/orders\/upload-image",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/orders\/reorder\/{code}",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/orders\/reorder\/:code",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/orders",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/orders",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/orders",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/orders",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/orders\/{order}",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/orders\/:order",
+                            "query": []
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/orders\/{order}",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/orders\/:order",
+                            "query": []
+                        },
+                        "method": "PUT",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/logout",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/logout",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/feedback",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/feedback",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                },
+                {
+                    "name": "api\/supplier\/register",
+                    "request": {
+                        "url": {
+                            "protocol": "https",
+                            "host": "alium.vn",
+                            "path": "api\/supplier\/register",
+                            "query": []
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "[]"
+                        },
+                        "description": "",
+                        "response": []
+                    }
+                }
+            ]
+        }
+    ]
+}
